@@ -8,3 +8,7 @@ function subtract(){
     const b = document.getElementById('').value;
     return a-b;
 }
+
+function clearValue() {
+    document.getElementById('result').value = '';
+}
